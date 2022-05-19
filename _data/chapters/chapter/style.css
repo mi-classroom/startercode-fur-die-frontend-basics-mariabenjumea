@@ -92,3 +92,28 @@ th {
     font-size: 20px;
     border-radius: 0.25em;
 }
+
+form, legend {
+    color: #706F6F;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    height: 470px;
+    width: 500px;
+}
+
+legend {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #3C3C3B;
+}

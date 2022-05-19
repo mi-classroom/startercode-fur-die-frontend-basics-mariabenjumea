@@ -15,8 +15,10 @@
 <body>
 
     <h2 class="chapter-number">2.3</h2>
-    <h1>Design Principles</h1> <hr>
-    <p class="chapter-intro">The challenge is to develop an application that tries to increase the user’s participation in team sports through
+    <h1>Design Principles</h1>
+    <hr>
+    <p class="chapter-intro">The challenge is to develop an application that tries to increase the user’s participation
+        in team sports through
         online communities. Several factors play into the success of this concept. It is not possible to achieve this
         goal if the application is not properly designed. To achieve this, design principles of several disciplines are
         applied to achieve a user-centric solution.</p>
@@ -175,7 +177,34 @@
         </tr>
     </table>
 
-    <h3></h3>
+    <fieldset>
+        <legend>Kommentar abgeben:</legend>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="image">Profilbild:</label><br>
+        <input type="file" id="img" name="img" accept="image/*"><br><br>
+
+        <label for="comments">Kommentar:</label><br>
+        <input type="text" id="comments" name="comments"><br><br>
+
+        <input type="checkbox" id="anonym" name="anonym">
+        <label for="anonym">Anonym posten</label><br><br>
+
+        <input type="checkbox" id="datenschutz" name="datenschutz">
+        <label for="datenschutz">Ich akzeptiere die <a href="url">AGB</a> und <a href="url">Datenschutzerklärung</a></label> <br><br>
+
+        <input type="submit">
+
+        <input type="reset">
+
+    </form>
+</fieldset>
+
 
 </body>
 
