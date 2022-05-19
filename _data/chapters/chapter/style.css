@@ -23,9 +23,12 @@ h2 {
 
 h3 {
     font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: -5px;
 }
 
 .chapter-number {
+    color: #706F6F;
     margin-bottom: -20px;
 }
 
@@ -65,9 +68,10 @@ cite {
 hr {
     background-color: #706F6F;
     height: 4px;
-    width: 240px;
+    width: 300px;
     margin-left: 40px;
     margin-top: -20px;
+    margin-bottom: 40px;
 }
 
 #user-experience-block {
