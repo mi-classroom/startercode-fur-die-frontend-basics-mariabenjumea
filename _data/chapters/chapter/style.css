@@ -1,5 +1,7 @@
 body {
     font-family: 'calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
 h1,
@@ -19,38 +21,45 @@ h2 {
     font-size: 35px;
 }
 
-.chapter-number {
-    margin-bottom: -20px;
-}
-
 h3 {
     font-size: 25px;
 }
 
+.chapter-number {
+    margin-bottom: -20px;
+}
+
+
+
+
+
 blockquote {
     color: #DFAC4A;
-    font-weight: 100;
+    font-weight: bold;
+    font-style: italic;
     font-size: 18px;
     margin-left: 20px;
 }
 
 p {
     color: #3C3C3B;
-    font-weight: 100;
     font-size: 18px;
     margin-left: 40px;
 }
 
+.chapter-intro {
+    color: #706F6F;
+
+}
+
 figcaption {
     color: #9D9D9C;
-    font-weight: 100;
     font-size: 16px;
     margin-left: 40px;
 }
 
 cite {
     color: #9D9D9C;
-    font-weight: 100;
     font-size: 16px;
     font-style: normal;
 }
@@ -70,7 +79,6 @@ hr {
 
 table {
     color: #3C3C3B;
-    font-weight: 100;
     font-size: 18px;
     margin-left: 40px;
 
@@ -78,20 +86,6 @@ table {
 
 th {
     color: #706F6F;
-    font-weight: 100;
     font-size: 18px;
     margin-left: 40px;
 }
-
-
-/*
-       // gilt für EIN element mit der id "title"
-        #title {
-            color: red;
-        }
-
-        // gilt für alle elemente mit der class "gelbes_h2"
-        .gelbes_h2 {
-            color: orange;
-        }
-        */
