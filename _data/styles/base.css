@@ -1,10 +1,12 @@
 body {
-    font-family: 'calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: 'IMBPlexMono';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     width: 80%;
     margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 h1,
@@ -24,7 +26,7 @@ h1 {
 h2 {
     color: black;
     font-size: 35px;
-    padding: 40px;
+    padding-top: 20px;
 }
 
 h3 {
@@ -39,12 +41,18 @@ blockquote {
     font-style: italic;
     font-size: 18px;
     margin-left: 20px;
+    padding-top: 20px;
 }
 
 p {
     color: #3C3C3B;
     font-size: 18px;
-    padding: 20px;
+    padding-top: 20px;
+}
+
+figure {
+    width: 80%;
+    margin: auto;
 }
 
 figcaption {
@@ -66,6 +74,7 @@ table {
     font-size: 18px;
     text-align: left;
     border-spacing: 10px;
+    padding-top: 20px;
 }
 
 thead {
@@ -85,17 +94,13 @@ legend {
 fieldset {
     margin-top: 40px;
     margin-bottom: 40px;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
 }
 
 legend {
     font-size: 20px;
     margin-bottom: 25px;
-}
-
-a {
-    color: #3C3C3B;
 }
 
 a {
