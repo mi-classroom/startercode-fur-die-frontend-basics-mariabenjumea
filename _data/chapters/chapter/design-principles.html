@@ -8,15 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Principles</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/_data/styles/reset.css">
+    <link rel="stylesheet" href="/_data/styles/base.css">
+    <link rel="stylesheet" href="/_data/styles/components.css">
+    <link rel="stylesheet" href="/_data/styles/fonts.css">
+    <link rel="stylesheet" href="/_data/styles/variables.css">
 
 </head>
 
 <body>
 
-    <h2 class="chapter-number">2.3</h2>
-    <h1>Design Principles</h1>
-    <hr>
+    <h1>2.3 <br> Design Principles</h1>
     <p class="chapter-intro">The challenge is to develop an application that tries to increase the user’s participation
         in team sports through
         online communities. Several factors play into the success of this concept. It is not possible to achieve this
@@ -25,17 +27,22 @@
 
     <h2>User Experience Design</h2>
     <p>The term "user experience" was first coined by Don Norman in the early 1990s when he was working at Apple
-        (NORMAN, 2013, P. XIII F.). User experience comprises all aspects of a user’s interaction with a company, its
+        <cite>(NORMAN, 2013, P. XIII F.)</cite>. User experience comprises all aspects of a user’s interaction with a
+        company, its
         services, and its products. The focus and most important goal of good user experience is to meet the user’s
         needs in every aspects. Close cooperation is required between different disciplines, such as engineering,
-        marketing, graphic design, industrial design, and interface design <cite>(NORMAN & NIELSEN, N.D.)</cite>.</p>
+        marketing, graphic design, industrial design, and interface design <cite>(NORMAN & NIELSEN, N.D.)</cite>.
+    </p>
 
-    <blockquote>
-        »Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs
-        so well that the design is invisible, serving us without drawing attention to itself. Bad design, on the other
-        hand, screams out its inadequacies, making itself very noticeable.«
-        <figcaption>NORMAN, 2013, P. XI</figcaption>
-    </blockquote>
+    <figure>
+        <blockquote>
+            »Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs
+            so well that the design is invisible, serving us without drawing attention to itself. Bad design, on the
+            other
+            hand, screams out its inadequacies, making itself very noticeable.«
+            <figcaption>NORMAN, 2013, P. XI</figcaption>
+        </blockquote>
+    </figure>
 
     <p>User experience captures everything a user experiences while using a given product, from the visuals, the
         haptics, and the audio to how the product feels. User experience of a product comprises three primary factors:
@@ -66,12 +73,15 @@
 
     <div id="user-experience-block">
 
-        <img src="../../images/user-experience.png" alt="User Experience" />
+        <figure>
 
+            <img src="../../images/user-experience.png" alt="User Experience" />
 
+            <figcaption>FIG. 04: PRIMARY FACTORS OF USER EXPERIENCE <br> OWN ILLUSTRATION BASED ON IXDF - USABILITY,
+                2020
+            </figcaption>
 
-        <figcaption>FIG. 04: PRIMARY FACTORS OF USER EXPERIENCE <br> OWN ILLUSTRATION BASED ON IXDF - USABILITY, 2020
-        </figcaption>
+        </figure>
 
     </div>
 
@@ -140,70 +150,75 @@
             P. 10F.)</cite>.</p>
 
     <table>
+        <thead></thead>
         <tr>
             <th>Main Focus</th>
             <th>Need</th>
             <th>Note</th>
         </tr>
-        <tr>
-            <td>Experience</td>
-            <td>Meaningful</td>
-            <td>personal significance</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td>Pleasurable</td>
-            <td>memorable experiences</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td>Convenient</td>
-            <td>super easy to use, works like I think</td>
-        </tr>
-        <tr>
-            <td>Tasks</td>
-            <td>Usable</td>
-            <td>can be used without difficulty</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td>Reliable</td>
-            <td>is available and accurate</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td>Functional</td>
-            <td>works as programmed</td>
-        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Experience</td>
+                <td>Meaningful</td>
+                <td>personal significance</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>Pleasurable</td>
+                <td>memorable experiences</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>Convenient</td>
+                <td>super easy to use, works like I think</td>
+            </tr>
+            <tr>
+                <td>Tasks</td>
+                <td>Usable</td>
+                <td>can be used without difficulty</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>Reliable</td>
+                <td>is available and accurate</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>Functional</td>
+                <td>works as programmed</td>
+            </tr>
+        </tbody>
     </table>
 
     <fieldset>
         <legend>Kommentar abgeben:</legend>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" class="input-name"><br><br>
 
-        <label for="email">E-Mail:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email" class="input-name"><br><br>
 
-        <label for="image">Profilbild:</label><br>
-        <input type="file" id="img" name="img" accept="image/*"><br><br>
+            <label for="image">Profilbild:</label><br>
+            <input type="file" id="img" name="img" accept="image/*"><br><br>
 
-        <label for="comment">Kommentar:</label><br>
-        <input type="text" id="comment" name="comment"><br><br>
+            <label for="comment">Kommentar:</label><br>
+            <input type="text" id="comment" name="comment" class="input-name"><br><br>
 
-        <input type="checkbox" id="anonym" name="anonym">
-        <label for="anonym">Anonym posten</label><br><br>
+            <input type="checkbox" id="anonym" name="anonym">
+            <label for="anonym">Anonym posten</label><br><br>
 
-        <input type="checkbox" id="datenschutz" name="datenschutz">
-        <label for="datenschutz">Ich akzeptiere die <a href="url">AGB</a> und <a href="url">Datenschutzerklärung</a></label> <br><br>
+            <input type="checkbox" id="datenschutz" name="datenschutz">
+            <label for="datenschutz">Ich akzeptiere die <a href="url">AGB</a> und <a
+                    href="url">Datenschutzerklärung</a></label> <br><br>
 
-        <input type="submit">
+            <input type="submit">
 
-        <input type="reset">
+            <input type="reset">
 
-    </form>
-</fieldset>
+        </form>
+    </fieldset>
 
 
 </body>

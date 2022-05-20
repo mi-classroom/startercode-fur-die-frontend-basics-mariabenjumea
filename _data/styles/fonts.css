@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "IMBPlexMono";
+    src: url("/_data/styles/fonts/IBMPlexMono-Bold.otf")
+}
+
+@font-face {
+    font-family: "IMBPlexMono";
+    src: url("/_data/styles/fonts/IBMPlexMono-Italic.otf")
+}
+
+@font-face {
+    font-family: "IMBPlexMono";
+    src: url("/_data/styles/fonts/IBMPlexMono-Light.otf")
+}
+
+@font-face {
+    font-family: "IMBPlexMono";
+    src: url("/_data/styles/fonts/IBMPlexMono-Regular.otf")
+}
