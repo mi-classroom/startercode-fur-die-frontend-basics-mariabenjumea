@@ -81,11 +81,17 @@ table {
     padding-top: var(--primary-spacing-size);
 }
 
+tbody {
+    font-family: 'IBMPlexSerif';
+}
+
 thead {
+    font-family: 'IBMPlexSans';
     color: var(--main-header-color);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-l);
     border-radius: 0.25em;
 }
+
 
 form,
 legend {
@@ -109,7 +115,6 @@ legend {
 
 a {
     color: var(--main-text-color);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: var(--font-size-s);
     text-decoration: none;
