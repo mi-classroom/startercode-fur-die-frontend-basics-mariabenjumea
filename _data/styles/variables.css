@@ -1,0 +1,19 @@
+:root {
+    --main-header-color: #706F6F;
+    --blockquote-color: #DFAC4A;
+    --main-text-color: #3C3C3B;
+    --caption-text-color: #9D9D9C;
+
+    --main-spacing-size: 40px;
+    --primary-spacing-size: 20px;
+
+    --font-size-xxl: 50px;
+    --font-size-xl: 40px;
+    --font-size-l: 35px;
+    --font-size-m: 25px;
+    --font-size-s: 18px;
+    --font-size-xs: 16px;
+    
+  }
+
+  
